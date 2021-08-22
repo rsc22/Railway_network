@@ -12,8 +12,8 @@ import pandas as pd
 import numpy as np
 
 def preprocess_data(project_path=None, data_path=None):
-    project_path = project_path if project_path else r'F:\Documentos\Python_learning\Dani_colab\Trenes'
-    data_path = data_path if data_path else r'F:\Documentos\Python_learning\Dani_colab\Trenes\Data\Datasets'
+    project_path = project_path if project_path else r'F:\Documentos\Trenes'
+    data_path = data_path if data_path else r'F:\Documentos\Trenes\Data\Datasets'
     os.chdir(project_path)
     
     
